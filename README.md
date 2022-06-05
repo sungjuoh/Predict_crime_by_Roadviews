@@ -29,3 +29,24 @@
       3) pretrained resnet18을 활용하여 CNN 모델 학습  
   4. Ensemble
       1) 위에서 CNN을 학습시켜 나온 결과 및 XGBoost로 얻은 주요 변수 12개로 범죄 위험도를 예측하는 앙상블 모델(로지스틱 회귀) 생성
+
+
+  ### 연구 결과
+  1. XGBoost(Regression)  
+    - Feature Importance
+      ![image](https://user-images.githubusercontent.com/85203515/172050348-c04ab061-c0fb-4d2c-b838-113f8512787d.png)
+    - Scatter plot of number of Crime  
+      ![image](https://user-images.githubusercontent.com/85203515/172050449-c37f67d4-cf77-4f0e-9294-026ac7938b4a.png)
+  2. XGBoost(Classification)
+     - Confusion Matrix
+      ![image](https://user-images.githubusercontent.com/85203515/172050636-c2a708f0-2a47-4fd8-b564-2bd85bf04b95.png)
+     - Feature Importance
+      ![image](https://user-images.githubusercontent.com/85203515/172050700-35658277-e692-4936-8d67-2807ea823211.png)
+  3. CNN  
+      - Confusion Matrix  
+        ![image](https://user-images.githubusercontent.com/85203515/172050736-d137b27a-4076-4a24-8b86-f8f24e7fea88.png)
+  4. Ensemble
+      - Confusion Matrix  
+        ![image](https://user-images.githubusercontent.com/85203515/172050784-b6e23411-dd77-4de6-b0cd-76573a32af88.png)
+
+  
