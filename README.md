@@ -109,3 +109,4 @@
         <img src='https://user-images.githubusercontent.com/85203515/172050784-b6e23411-dd77-4de6-b0cd-76573a32af88.png' width="400" height="400"/>
           - test set에 대한 accuracy는 0.8175로 CNN 학습 결과였던 accuracy 0.53보다 대폭 상승하였다. 이것은 이전 CNN 모델에서의 문제점으로 지적되던 로드뷰 사진에 지역적인 정보가 포함되어 있지 않다는 문제를 다른 12개의 피처로 보정함으로써 더 나은 결과를 보인 것으로 판단한다. 
   
+### 결론
